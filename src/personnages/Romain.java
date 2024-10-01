@@ -34,5 +34,13 @@ public class Romain {
 		minus.prendreParole();
 		minus.parler("Viens te battre");
 		minus.recevoirCoup(10);
-	}
+	       // Tester l'énumération Equipement
+        Equipement casque = Equipement.CASQUE;
+        Equipement bouclier = Equipement.BOUCLIER;
+
+        // Afficher les noms des équipements
+        System.out.println("Équipement 1 : " + casque.getNom());
+        System.out.println("Équipement 2 : " + bouclier.getNom());
+    }
 }
+	
