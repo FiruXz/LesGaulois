@@ -41,6 +41,8 @@ package personnages;
 		asterix.prendreParole();
 		asterix.parler("coucou");
 		asterix.boirePotion(14);
+		Gaulois abraracourcix = new Gaulois("Arbraracourcix",6);
+		
 		
 	}
 	
